@@ -1,0 +1,7 @@
+name: 'Cache Size Block - V3'
+type: module
+description: 'Provides a block that displays the sizes of cache bins.'
+core_version_requirement: ^9 || ^10
+package: 'AA LM Custom'
+dependencies:
+  - drupal:block

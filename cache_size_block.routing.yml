@@ -1,0 +1,7 @@
+cache_size_block.admin_page:
+  path: '/admin/cache_sizes'
+  defaults:
+    _controller: '\Drupal\cache_size_block\Controller\CacheSizeController::content'
+    _title: 'Cache Sizes'
+  requirements:
+    _permission: 'administer site configuration'
